@@ -1,0 +1,26 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Projeto base para as próximas aplicações em node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreLucca19/nodejs-first-boilerplate.git"
+  },
+  "author": "Lucca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreLucca19/nodejs-first-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AndreLucca19/nodejs-first-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
